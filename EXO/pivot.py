@@ -1,5 +1,5 @@
 def pivot(T,j):
-    """cette fonction renvoie le premier coefficient non nul de la colonne j de T à partir de la diagonale"""
+    #"cette fonction renvoie le premier coefficient non nul de la colonne j de T à partir de la diagonale"""
     n = len(T[0])
     affiche(T)
     #i=j
@@ -16,7 +16,7 @@ def reduc(T,j):
     """cette fonction renvoie le premier coefficient non nul de la colonne j de T à partir de la diagonale"""
     lignePivot = pivot(T,j)
     print ('lignePivot ' + str(lignePivot))
-    n = len(T[0])
+    n = len(T)
     T0 = []
     for i in range(n):
         if i == lignePivot:
