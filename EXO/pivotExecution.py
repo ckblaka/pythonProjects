@@ -7,4 +7,9 @@ print('Affiche B')
 pivot.affiche(B)
 k = dm.sommeligne(T,0)
 print('somme = ', k)
+print('-----')
+g = dm.sommeDiag2(T)
+
+
+
 

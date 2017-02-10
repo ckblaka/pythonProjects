@@ -87,3 +87,4 @@ def magique(C):
         test = sommeligne(C, k) == sommecolonne(C, k) == sommediag1(C) == sommediag2(C)
     return test
 ## partie kezia au 10/02/2017 AM
+
