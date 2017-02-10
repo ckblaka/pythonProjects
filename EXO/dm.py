@@ -1,9 +1,10 @@
-"""les fonctions de constant"""
 def affiche (c):
+    """les fonctions de constant"""
     for k in range(len(c)):
         print(c[k])
 
 def sommeDiag2(t):
+    """Functions calcul diagonale Constant"""
     affiche(t)
     n = len(t)
     j = 0
