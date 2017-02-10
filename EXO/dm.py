@@ -1,4 +1,4 @@
-## les fonctions de constant
+"""les fonctions de constant"""
 def affiche (c):
     for k in range(len(c)):
         print(c[k])
