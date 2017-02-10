@@ -9,7 +9,6 @@ def sommeligne(c,i):
     b = len(c)
     for k in range(b):
         a = c[i][k] + a
-        print(a)
     return a
 
 def somme(L):
