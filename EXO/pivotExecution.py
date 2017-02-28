@@ -13,3 +13,4 @@ g = dm.sommeDiag2(T)
 
 
 
+

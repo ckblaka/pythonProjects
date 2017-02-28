@@ -16,7 +16,7 @@ I = float(input('Saisir l'' investissement:'))
     #rep = input('voulez-vous continuer? ')
 #print('Les valeurs Saisies ', T)
 
-T = [200000, 140000, 150000, 250000, 600000]
+#T = [200000, 140000, 150000, 250000, 600000]
 
 ### Affiche le nombre de cache flows entrés
 n = len(T)
