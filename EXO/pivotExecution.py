@@ -10,7 +10,8 @@ print('somme = ', k)
 print('-----')
 g = dm.sommeDiag2(T)
 
+print('-- exection Factorielle --')
 
-
+a = pivot.facto(9)
 
 
