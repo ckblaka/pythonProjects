@@ -5,7 +5,7 @@ n = len(T)
 for i in range(n):
     for j in range(n):
         if T[i][j] == 0:
-            plt.plot(j, n - 1 - i, 'wo')
+            plt.plot(j, n - 1 - i, 'bo')
         else:
             plt.plot(j, n - 1 - i, 'ro')
 plt.show()
