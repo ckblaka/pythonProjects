@@ -54,6 +54,13 @@ def pivote(T, j):
                     #print ('resultat' + str(res))
                     return affiche(res)
 
+def facto(n):
+    if n == 0:
+        return 1
+    else:
+        return n * facto(n - 1)
+
+
 ## exemple avec T=[[0,-1,1,8],[1,3,-1,4],[3,0,0,2],[1,5,2,4]]
 ## voici les resultats
 #T = [[0, -1, 1, 8], [1, 3, -1, 4], [3, 0, 0, 2], [1, 5, 2, 4]]
